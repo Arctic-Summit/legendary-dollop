@@ -5,10 +5,17 @@
     <link rel="icon" href="https://raw.githubusercontent.com/Arctic-Summit/legendary-dollop/e6d65f989ca70a1336859d750712cd0cf138a8b1/dist/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vite App</title>
-    <script type="module" crossorigin src="https://raw.githubusercontent.com/Arctic-Summit/legendary-dollop/e6d65f989ca70a1336859d750712cd0cf138a8b1/dist/assets/index-3e0b3d11.js"></script>
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/Arctic-Summit/legendary-dollop/e6d65f989ca70a1336859d750712cd0cf138a8b1/dist/assets/index-3f50f878.css">
+    <style>
+      %%=TreatAsContent(HTTPGet('https://raw.githubusercontent.com/Arctic-Summit/legendary-dollop/e6d65f989ca70a1336859d750712cd0cf138a8b1/dist/assets/index-3f50f878.css'))=%%
+    </style>
+    <!-- <script type="module" crossorigin src="/assets/index-3e0b3d11.js"></script> -->
+    <!-- <link rel="stylesheet" href="/assets/index-3f50f878.css"> -->
   </head>
   <body>
     <div id="app"></div>
+    
+    <script>
+      %%=TreatAsContent(HTTPGet('https://raw.githubusercontent.com/Arctic-Summit/legendary-dollop/e6d65f989ca70a1336859d750712cd0cf138a8b1/dist/assets/index-3e0b3d11.js'))=%%
+    </script>
   </body>
 </html>
