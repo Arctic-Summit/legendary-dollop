@@ -33,7 +33,7 @@ src
 .eslintrc.cjs
 .prettierrc.json
 env.d.ts
-index.html
+/index.html
 package-lock.json
 package.json
 tsconfig.json
